@@ -3,3 +3,67 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    margin: 30px;
+    height: 200px;
+    background-color: #e579e6;
+}
+
+.yellow {
+    margin: 30px;
+    height: 700px;
+    background-color: #e1d67a;
+}
+
+.blue {
+    margin: 30px;
+    background-color: #0186ff;
+    margin-bottom: 15px;
+}
+
+.paragraph-0 {
+    height: 150px;
+    background-color: #abcfe6;
+    margin-bottom: 30px;
+}
+
+.paragraph-1,
+.paragraph-2,
+.paragraph-3 {
+    background-color: #abcfe6;
+    height: 700px;
+    margin-bottom: 30px;
+}
+.paragraph-1 {
+    float: left;
+    width: 23%;
+}
+
+.paragraph-2 {
+    float: left;
+    width: 50%;
+    margin: 0px 2%;
+}
+
+.paragraph-3 {
+    float: right;
+    width: 23%;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer {
+    margin: 0px 30px 40px;
+    height: 70px;
+    background-color: #8820fe;
+}
